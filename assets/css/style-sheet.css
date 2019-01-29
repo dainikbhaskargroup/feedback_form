@@ -6,14 +6,19 @@ body{
 
 header{
 	text-align: center;
-    padding: 0 auto;
     padding: 5% 0% 10% 0%;
 	width: 40%;
+    margin: 2% 0% 0% 30%;
 }
 
 label{
 	display: block;
 	font-size: 16px;
+	padding: 0% 0% 0% 1%;
+	font-family: sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-stretch: expanded;
    
 }
 
@@ -26,11 +31,22 @@ form{
 }
 
 input[type='text']{
-	padding: 1% 1% 1% 1%;
-	margin: 0% 0% 1% 0%;
-	width: 100%;
+	
+	padding: 1% 0% 1% 2%;
+    margin: 0% 0% 1% 0%;
+    width: 95%;
     display: inline-block;
-    position: inherit;
+    border-radius: 10px;
+    border: 2px solid #F3F280;
+    border-spacing: 2px;
+}
+
+input[type="text"]:focus{
+	border: 2px solid #000;
+}
+
+input[type="text"]:hover{
+	border: 2px solid #000;
 }
 
 .container{
@@ -40,11 +56,30 @@ input[type='text']{
 	
 }
 
+.form-group{
+	width: 100%;
+    display: block;
+    position: inherit;
+}
+
 .img-responsive{
 	width: 90%;
     position: inherit;
     height: 70%;
 	
+}
+
+.btn{
+	padding: 1% 3% 1% 3%;
+    border-radius: 20px;
+}
+
+.btn-success{
+	background-color: #EEBE82;
+}
+
+.btn:hover{
+	background-color: orange;
 }
 
 .pull-right{
