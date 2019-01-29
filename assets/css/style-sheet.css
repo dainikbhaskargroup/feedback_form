@@ -1,0 +1,56 @@
+
+body{
+	width: 100%;
+	
+}
+
+header{
+	text-align: center;
+    padding: 0 auto;
+    padding: 5% 0% 10% 0%;
+	width: 40%;
+}
+
+label{
+	display: block;
+	font-size: 16px;
+   
+}
+
+form{
+	border: 3px solid #f3f3f3;
+    padding: 1% 0% 4% 3%;
+    width: 92%;
+    background-color: #F3F3BF;
+	
+}
+
+input[type='text']{
+	padding: 1% 1% 1% 1%;
+	margin: 0% 0% 1% 0%;
+	width: 100%;
+    display: inline-block;
+    position: inherit;
+}
+
+.container{
+	width: 100%;
+	
+	
+	
+}
+
+.img-responsive{
+	width: 90%;
+    position: inherit;
+    height: 70%;
+	
+}
+
+.pull-right{
+	float: right;
+}
+
+.pull-left{
+	float: left;
+}
